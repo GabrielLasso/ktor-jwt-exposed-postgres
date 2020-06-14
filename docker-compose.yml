@@ -8,6 +8,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: example
+      POSTGRES_DB: testdb
     volumes: 
      - ./.data/db/:/var/lib/postgresql/data
     ports:
